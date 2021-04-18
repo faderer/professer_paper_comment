@@ -1,0 +1,18 @@
+Chaoping Xing	spd: efficient mpc mod for dishonest majority	International Cryptology Conference	65	2018
+Chaoping Xing	asymptotically good ideal linear secret sharing with strong multiplication over any fixed finite field	International Cryptology Conference	60	2009
+Chaoping Xing	amortized complexity of information-theoretically secure mpc revisited	International Cryptology Conference	19	2018
+Dawu Gu	pba: prediction-based authentication for vehicle-to-vehicle communications	IEEE Transactions on Dependable and Secure Computing	55	2015
+Dawu Gu	impossible differential fault analysis on the led lightweight cryptosystem in the vehicular ad-hoc networks	IEEE Transactions on Dependable and Secure Computing	18	2015
+Dawu Gu	ciphertext-only fault analysis on the led lightweight cryptosystem in the internet of things	IEEE Transactions on Dependable and Secure Computing	8	2018
+Dawu Gu	pbt: a new privacy-preserving payment protocol for blockchain transactions	IEEE Transactions on Dependable and Secure Computing	1	2020
+Dawu Gu	a framework for the analysis and evaluation of algebraic fault attacks on lightweight block ciphers	IEEE Transactions on Information Forensics and Security	41	2016
+Dawu Gu	ridge-based dpa: improvement of differential power analysis for nanoscale chips	IEEE Transactions on Information Forensics and Security	20	2017
+Dawu Gu	tight leakage-resilient cca-security from quasi-adaptive hash proof system	International Cryptology Conference	2	2019
+Dawu Gu	functional graph revisited: updates on second preimage attacks on hash combiners	International Cryptology Conference	5	2017
+Dawu Gu	seeing through the same lens: introspecting guest address space at native speed	Usenix  Security Symposium	6	2017
+Jianhua Li	dynamic privacy pricing: a multi-armed bandit approach with time-variant rewards	IEEE Transactions on Information Forensics and Security	25	2016
+Jianhua Li	periodic -times anonymous authentication with efficient revocation of violators credential	IEEE Transactions on Information Forensics and Security	8	2014
+Shengli Liu	tight leakage-resilient cca-security from quasi-adaptive hash proof system	International Cryptology Conference	2	2019
+Xinghao Jiang	learning generalized deep feature representation for face anti-spoofing	IEEE Transactions on Information Forensics and Security	80	2018
+Xinghao Jiang	detection of double compression with the same coding parameters based on quality degradation mechanism analysis	IEEE Transactions on Information Forensics and Security	23	2017
+Xinghao Jiang	detection of hevc double compression with the same coding parameters based on analysis of intra coding quality degradation process	IEEE Transactions on Information Forensics and Security	7	2019
