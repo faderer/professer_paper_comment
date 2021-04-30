@@ -28,12 +28,3 @@ def main():
 if __name__ == "__main__":
     main()
     print('Done!')
-
-
-
-
-    # f = open("papers3.txt")
-    # for line in f:
-    #     author, title, subtitle, citation, pub_date, filename = line.split('\t')
-    #     Paper.objects.get_or_create(author=author, title=title, subtitle=subtitle, citation=citation, pub_date=pub_date, filename=filename)
-    # f.close()

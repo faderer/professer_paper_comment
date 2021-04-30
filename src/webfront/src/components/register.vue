@@ -1,14 +1,10 @@
 <template>
   <div>
-    <!-- <div class="outer_label">
-      <img class="inner_label login_logo" src="../assets/logo.png">
-    </div> -->
     <div class="login_form">
       <input type="text"  class="qxs-ic_user qxs-icon"  placeholder="用户名" v-model="userName_re">
       <input type="text"  class="qxs-ic_email qxs-icon"  placeholder="邮箱" v-model="email_re">
       <input type="text"  class="qxs-ic_password1 qxs-icon"  placeholder="密码" v-model="password_re">
       <input type="text"  class="qxs-ic_password2 qxs-icon"  placeholder="确认密码" v-model="password_re2">
-      <!--<button class="login_btn el-button el-button&#45;&#45;primary is-round" type="primary" round>登录</button>-->
       <el-button class="login_btn" @click.native="register" type="primary" round :loading="isBtnLoading">注册</el-button>
     </div>
   </div>

@@ -1,12 +1,5 @@
 <template>
   <div id="app">
-    <!-- <header class="navi">
-        <a v-for="(i,index) in tabs" :key="index" :class="{active: index == thatnum}" @click="addClassName(index)">
-          <router-link :to="i.url" class="tap">
-            <p>{{i.text}}</p>
-          </router-link>
-        </a>
-    </header> -->
     <div class="overall">
     <div class="top">
       <div class="tab-box">
@@ -38,13 +31,6 @@
           sign out
         </router-link>
         </span>
-
-        <!-- <span class="defaultIndex==index?'active':''">
-        <div class="dot"></div>
-        <router-link to="/login" tag="span">
-          sign in
-        </router-link>
-        </span> -->
       </div>
     </div>
 
@@ -275,9 +261,6 @@ p{
 .tab-box span:hover {
   text-shadow: 0 0 10px white;
 }
-//此处会发现有 + * + * + * +  这样的东西，百度了一下，没找到具体介绍
-//感觉应该是控制该元素之外的的标签  比如此处有4个 span标签，+ * + * + * +的意思就是4层之后的标签
-//每个span标签所处的层数不一样，所以就会有不同数量的 +*+*+*
 
 .tab-box span:nth-of-type(1):hover + * + * + .bar-box .bar {
   left: 0;

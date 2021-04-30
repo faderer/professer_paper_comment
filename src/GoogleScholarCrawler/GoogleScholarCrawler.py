@@ -11,49 +11,7 @@ import sys
 import json
 from selenium.webdriver import ChromeOptions
 
-# options = webdriver.ChromeOptions()
-# options.add_experimental_option('excludeSwitches', ['enable-automation'])
-# driver = webdriver.Chrome(options=options)
-
-author = "Nico Zheng"
-email = "nico921113[at]gmail.com"
-
-# keywords = ["online communities"]  # search keywords
-# journals = ['information systems research', 'mis quarterly', 'journal of management information systems',
-#              'journal of the association for information systems', 'management science', 'operational research',
-#              'information & management', "decision support systems", "european journal of information systems"]
-# fpath = "/Users/Nico/test/test_googlecrawer2"   # output file folder
-# chromedriver_path = ""  # modify this if you need to use local chromedriver
-
-alias = {'information systems research':"ISR", 'mis quarterly':'MISQ', 'journal of management information systems':"JMIS",'journal of the association for information systems':"JAIS", 'management science':'MS', 'operational research':"OR",
-    "information & management": "I&M", "decision support systems": "DSS", "european journal of information systems": "EJIS"}
-
-
-'''
-crawl google scholar search results and save pdf if the file was avaliable.
-
-requirements:
-    - selenium  `pip install selenium`
-    - webdriver `brew install webdriver`
-    - requests `pip install requests`
-    - openpyxl `pip install openpyxl`
-
-will create local file folders based on keywords and journal as following:
-$ tree test_googlecrawer -d
-test_googlecrawer
-└── wikipedia
-    ├── information systems research
-    ├── journal of management information systems
-    ├── journal of the association for information systems
-    ├── management science
-    ├── mis quarterly
-    └── operational research
-
-in each folder, there is a log file recorded detailed search results (author, title, journal, year and whether pdf is avaliable)
-also avaliable pdf files.
-the pdf file renamed as:
-author-year-title-journal.pdf
-'''
+alias = {}
 
 ## global functions
 def downloadPdf(output, link):
