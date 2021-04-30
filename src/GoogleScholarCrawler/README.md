@@ -2,8 +2,8 @@
 需要安装以下依赖:
     - selenium  `pip install selenium`
     - webdriver `brew install selenium-server-standalone`
-    - requests `pip install requests`
-    - openpyxl `pip install openpyxl`
+    - requests  `pip install requests`
+    - openpyxl  `pip install openpyxl`
 
 
 ## 运行
